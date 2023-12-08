@@ -1,7 +1,7 @@
 {
   "name": "markus-agency-mui-search-bar",
   "version": "1.0.0",
-  "description": "Material search bar component with debounce function",
+  "description": "Material search bar component with debounce function.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
