@@ -22,7 +22,7 @@ const cancelSearch = () => {
 return (
   <SearchBar 
       onChange={(searchVal) => requestSearch(searchVal)}
-      onCancelResearch={() => cancelSearch()}
+      onCancelSearch={() => cancelSearch()}
   />
 );
 ```
@@ -42,7 +42,7 @@ return (
       label={'Search'}
       placeholder="Search name"
       onChange={(searchVal) => requestSearch(searchVal)}
-      onCancelResearch={() => cancelSearch()}
+      onCancelSearch={() => cancelSearch()}
       autoComplete={"on"} // off is default
       debounceTime={1000} // in ms
   />
